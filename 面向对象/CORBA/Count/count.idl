@@ -1,0 +1,11 @@
+// Count.idl
+
+module Counter //·¶Î§¡¢Ãû×Ö¿Õ¼ä
+{
+  interface Count
+  { attribute long sum;
+    long increment();
+  };
+}; 
+
+
