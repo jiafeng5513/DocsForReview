@@ -13,5 +13,7 @@
 7. 数据挖掘<br>
 8. 程序设计方法学<br>
 
+### 欢迎吉大校友pull request
+
 ### 协议
 Do What The F*ck You Want To Public License
