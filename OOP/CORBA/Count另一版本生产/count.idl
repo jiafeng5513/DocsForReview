@@ -1,0 +1,59 @@
+// Count.idl
+
+module Counter
+{
+  interface Count
+  { attribute long sum;
+    long increment();
+  };
+}; 
+
+
+
+
+/*
+
+interface I { f };
+
+S1 imp I;
+S2 imp I;
+
+S1
+{  f( )
+	{ 
+		S2 s2;
+		s2.f( );
+	}
+
+};
+
+abstract  S2
+{
+//others
+	abstrat f( )
+};
+
+S3 : S2
+{
+	f( )
+	{ 
+		//...
+	}
+};
+
+C
+{
+	g(I anI )
+	{
+	   anI.f( );
+	 }
+}	 
+
+//..........
+{
+	C c;
+	S1  s1;
+	c.g( s1);
+}
+
+*/
